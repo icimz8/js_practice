@@ -9,5 +9,20 @@
 ## 01. JavaScript Drum Kit
 <img src="image/01_drum.gif"> 
 
+> 특정 키 누를때 오디오재생하기 
 + 20220425
-+ 배운점: ```transitionend``` 이벤트 , return문에서 값 생략시 undefined 반환
++ 배운 것: ```transitionend``` 이벤트 , return문에서 값 생략시 undefined 반환
+
+## 02. JS and CSS Clock
+<img src="image/02_clock.gif"> 
+
+> 아날로그 시계 만들기    
++ 20220426 
++ 배운 것: transform 세부속성, 시계구현 각도 
+
+## 03. CSS Variables
+<img src="image/03_variables.gif"> 
+
+> css값 조절하기    
++ 20220427 
++ 배운 것: ```change``` 이벤트, dataset과 setProperty로 변수다루기
