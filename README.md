@@ -9,7 +9,7 @@
 ## 01. JavaScript Drum Kit
 <img src="image/01_drum.gif"> 
 
-> 특정 키 누를때 오디오재생하기 
+> 특정 키 누를때 오디오 이벤트 
 + 20220425
 + 배운 것: ```transitionend``` 이벤트 , return문에서 값 생략시 undefined 반환
 
@@ -26,3 +26,8 @@
 > css값 조절하기    
 + 20220427 
 + 배운 것: ```change``` 이벤트, dataset과 setProperty로 변수다루기
+
+## 04. Array Cardio Day 1
+> Array 관련 메서드들
++ 20220428
++ 배운 것 : ```.filter()```   ```.map()```  ```.sort()```  ```.reduce()```   
