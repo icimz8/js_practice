@@ -25,9 +25,19 @@
 
 > css값 조절하기    
 + 20220427 
-+ 배운 것: ```change``` 이벤트, dataset과 setProperty로 변수다루기
++ 배운 것 
+  + ```change``` 이벤트 
+  + dataset, ```:root``` , setProperty로 변수다루기
 
 ## 04. Array Cardio Day 1
 > Array 관련 메서드들
 + 20220428
 + 배운 것 : ```.filter()```   ```.map()```  ```.sort()```  ```.reduce()```   
+<br>
+
+## 05. Flex Panel Gallery
+<img src="image/05.gif"> 
+
+> Js로 액티브효과 주기 (with flex)
++ 20220429
++ 배운 것 : ```flex``` 복습 , ```transitionend``` 복습 
