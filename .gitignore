@@ -1,0 +1,3 @@
+*.html
+!origin.html
+!index.html
