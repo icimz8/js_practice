@@ -41,3 +41,13 @@
 > Js로 액티브효과 주기 (with flex)
 + 20220429
 + 배운 것 : ```flex``` 복습 , ```transitionend``` 복습 
+
+## 06. Type Ahead
+<img src="image/06.gif"> 
+
+> 검색기능 만들기 
++ 20220502
++ 배운 것 
+  + ```fetch```
+  + 정규 표현식(Regular Expression), 전개 연산자(Spread Operator)
+  + ```.join()```  ```.replace()```  ```.match()``` 
