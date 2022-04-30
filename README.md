@@ -46,7 +46,7 @@
 <img src="image/06.gif"> 
 
 > 검색기능 만들기 
-+ 20220502
++ 20220501
 + 배운 것 
   + ```fetch```
   + 정규 표현식(Regular Expression), 전개 연산자(Spread Operator)
