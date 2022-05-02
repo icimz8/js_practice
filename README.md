@@ -51,3 +51,10 @@
   + ```fetch```
   + 정규 표현식(Regular Expression), 전개 연산자(Spread Operator)
   + ```.join()```  ```.replace()```  ```.match()``` 
+
+## 07. Array Cardio Day 2
+> Array 관련 메서드들 2
++ 20220502
++ 배운 것 
+  + ```.some()``` ```.every()``` ```.find()``` ```.findIndex()```
+ 
