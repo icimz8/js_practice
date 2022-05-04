@@ -58,3 +58,12 @@
 + 배운 것 
   + ```.some()``` ```.every()``` ```.find()``` ```.findIndex()```
  
+## 08. Fun with HTML5 Canvas
+<img src="image/08.gif"> 
+
+>  canvas로 그림판 만들기
++ 20220504
++ 배운 것 
+  + ```canvas```다루기  
+  + 구조 분해 할당
+ 
