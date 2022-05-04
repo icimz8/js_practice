@@ -10,62 +10,59 @@
   <canvas id="draw" width="800" height="800"></canvas>
   <script>
     const canvas = document.querySelector('#draw');
+    const ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    let ctx = canvas.getContext('2d');
-    ctx.lineWidth = 10;
+    ctx.lineWidth = 100;
     ctx.strokeStyle = 'red';
-    ctx.lineCap = 'round';
     ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
 
-    let state = false;
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
     let direction = true;
-    let color = 0;
+    let hue = 0;
 
-    function changeLineProperty() {
-      if (ctx.lineWidth === 100) {
-        direction = !direction;
-      } else if (ctx.lineWidth == 1) {
+    function changeLineProperty(e) {
+      if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
         direction = !direction;
       }
       direction ? ctx.lineWidth++ : ctx.lineWidth--;
-      direction ? color++ : color--;
 
-      ctx.strokeStyle = `hsl(${color}, 100%, 50%)`
-      console.log(ctx.lineWidth, direction);
+      ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+      hue++;
+      if (hue >= 360) {
+        hue = 0;
+      }
+      // console.log(ctx.lineWidth, direction);
     }
 
 
     function draw(e) {
-      const x = e.offsetX;
-      const y = e.offsetY;
-
-      if (state) {
-        ctx.beginPath();
-        ctx.moveTo(x, y);
-        ctx.lineTo(x, y);
-        ctx.fill();
-        ctx.stroke();
-        changeLineProperty();
-      } else {
-        return;
-      }
+      if (!isDrawing) return; // stop the fn from running when they are not mosed
+      ctx.beginPath();
+      ctx.moveTo(lastX, lastY);
+      ctx.lineTo(e.offsetX, e.offsetY);
+      ctx.stroke();
+      changeLineProperty();
+      [lastX, lastY] = [e.offsetX, e.offsetY];
     }
 
-    function startDrawing() {
-      state = true;
-      console.log(state);
+    function startDrawing(e) {
+      isDrawing = true;
+      [lastX, lastY] = [e.offsetX, e.offsetY];
     }
 
     function stopDrawing() {
-      state = false;
-      console.log(state);
+      isDrawing = false;
     }
 
-    canvas.addEventListener('mousedown', startDrawing)
-    canvas.addEventListener('mouseup', stopDrawing)
-    canvas.addEventListener('mousemove', draw)
+    canvas.addEventListener('mousedown', startDrawing);
+    canvas.addEventListener('mouseup', stopDrawing);
+    canvas.addEventListener('mouseout', stopDrawing);
+    canvas.addEventListener('mousemove', draw);
   </script>
 
   <style>
