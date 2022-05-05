@@ -68,7 +68,7 @@
   + 구조 분해 할당
  
 ## 09. Dev Tools Domination
-<img src="image/09.jpg"> 
+<img src="image/09.JPG"> 
 
 > ```개발자 도구 창``` 다루기  
 + 20220505
