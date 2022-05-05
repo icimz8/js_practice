@@ -67,3 +67,13 @@
   + ```canvas```다루기  
   + 구조 분해 할당
  
+## 09. Dev Tools Domination
+<img src="image/09.jpg"> 
+
+> ```개발자 도구 창``` 다루기  
++ 20220505
++ 배운 것 
+  + 콘솔 내에 css 적용 
+  + 경고띄우기 ```warn```, ```error``` ,```info``` ,```assert```
+  + ```group``` ,```count```, ```time```  등등 
+ 
