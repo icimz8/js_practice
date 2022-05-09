@@ -68,7 +68,7 @@
   + 구조 분해 할당
  
 ## 09. Dev Tools Domination
-<img src="image/09.JPG"> 
+<img src="image/09.JPG"  height="320px"> 
 
 > ```개발자 도구 창``` 다루기  
 + 20220505
@@ -76,4 +76,12 @@
   + 콘솔 내에 css 적용 
   + 경고띄우기 ```warn```, ```error``` ,```info``` ,```assert```
   + ```group``` ,```count```, ```time```  등등 
+ 
+## 10. Hold Shift and Check Checkboxes
+<img src="image/10.gif"> 
+
+> ```shift키 + 클릭으로 다중선택하기```   
++ 20220509
++ 배운 것 
+  + ```shiftKey``` ,변수 활용하기
  
