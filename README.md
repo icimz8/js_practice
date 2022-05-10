@@ -85,3 +85,11 @@
 + 배운 것 
   + ```shiftKey``` ,변수 활용하기
  
+## 11. Custom Video Player
+<img src="image/11.gif"> 
+
+> ```커스텀 비디오 플레이어 만들기```   
++ 20220510
++ 배운 것 
+  +  video 속성(태그) 컨트롤 
+ 
