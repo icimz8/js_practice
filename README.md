@@ -80,7 +80,7 @@
 ## 10. Hold Shift and Check Checkboxes
 <img src="image/10.gif"> 
 
-> ```shift키 + 클릭으로 다중선택하기```   
+> shift키 + 클릭으로 다중선택하기   
 + 20220509
 + 배운 것 
   + ```shiftKey``` ,변수 활용하기
@@ -88,8 +88,15 @@
 ## 11. Custom Video Player
 <img src="image/11.gif"> 
 
-> ```커스텀 비디오 플레이어 만들기```   
+> 커스텀 비디오 플레이어 만들기   
 + 20220510
 + 배운 것 
   +  video 속성(태그) 컨트롤 
  
+## 12.Key Sequence Detection
+<img src="image/12.JPG" height="320px"> 
+
+> 특정 키 조합 누르면 화면에 효과띄우기
++ 20220511
++ 배운 것 
+  + ```splice```
