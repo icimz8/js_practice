@@ -108,3 +108,11 @@
 + 20220514
 + 배운 것 
   +  ```브라우저에서 스크롤 정보를 가져오는 방법```
+
+## 14. JavaScript References VS Copying
+<img src="image/14.JPG" height="320px"> 
+
+> 참조와 복사 차이
++ 20220516
++ 배운 것 
+  +  ```shallow copy``` - JS 참조와 복사 차이점
