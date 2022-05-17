@@ -116,3 +116,12 @@
 + 20220516
 + 배운 것 
   +  ```shallow copy``` - JS 참조와 복사 차이점
+
+## 15. LocalStorage
+<img src="image/15.gif"> 
+
+> 로컬스토리지 이용한 ToDoList 
++ 20220517
++ 배운 것  
+  +  localStorage
+
