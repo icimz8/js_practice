@@ -5,6 +5,7 @@
 > Ref: [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)    
 
 <br>   
+🧐 각 프로젝트마다 README(알게된점 및 복습 기록)파일을 작성하였습니다. 
 
 ## 01. JavaScript Drum Kit
 <img src="image/01_drum.gif"> 
@@ -125,3 +126,10 @@
 + 배운 것  
   +  localStorage
 
+## 16. Mouse Move Shadow
+<img src="image/16.gif"> 
+
+> mouse move effect! 
++ 20220518
++ 배운 것  
+  + 복습  ```offsetX```, ```offsetWidth```, ```구조분해할당```
