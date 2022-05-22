@@ -133,3 +133,22 @@
 + 20220518
 + 배운 것  
   + 복습  ```offsetX```, ```offsetWidth```, ```구조분해할당```
+
+## 17. Sort Without Articles
+<img src="image/17.JPG"> 
+
+>  관사제외하고 알파벳순으로 정렬한 리스트만들기
++ 20220521
++ 배운 것(keyword)
+  + 정규표현식
+  + sort(), replace(), map()
+  + trim()
+
+## 18. Adding Up Times with Reduce
+
+> 여러 개의 타임노드에서 전체시간(시,분,초) 출력하기
++ 20220522
++ 배운 것(keyword)
+  + parseFloat(string) 
+  + Math.floor
+  + selectorAll로 가져오는 것은 ```NodeList``` 배열이랑 다름! 
