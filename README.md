@@ -135,7 +135,7 @@
   + 복습  ```offsetX```, ```offsetWidth```, ```구조분해할당```
 
 ## 17. Sort Without Articles
-<img src="image/17.JPG"> 
+<img src="image/17.JPG"  height="320px"> 
 
 >  관사제외하고 알파벳순으로 정렬한 리스트만들기
 + 20220521
@@ -152,3 +152,12 @@
   + parseFloat(string) 
   + Math.floor
   + selectorAll로 가져오는 것은 ```NodeList``` 배열이랑 다름! 
+
+## 19. Webcam Fun
+<img src="image/19.JPG" height="320px"> 
+
+> 웹캠기능과 효과필터 만들기
++ 20220524
++ 배운 것(keyword)   
+  +  웹캠 사용하기, 캡쳐해서 이미지저장
+  +  픽셀다루기
